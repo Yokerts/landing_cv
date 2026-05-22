@@ -6,7 +6,7 @@
   "scripts": {
     "build": "bash scripts/build.sh",
     "preview": "npx --yes serve dist -l 4173"
-  }
+  },
   "engines": {
     "node": "20.x"
   }
