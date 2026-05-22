@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ykts.com.mx" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ykts.com.mx">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/cv" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

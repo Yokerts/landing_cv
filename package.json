@@ -1,0 +1,10 @@
+{
+  "name": "cv-carlos-medina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Currículum vitae web — Carlos Alberto Medina Arias",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "preview": "npx --yes serve dist -l 4173"
+  }
+}

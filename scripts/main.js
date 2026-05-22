@@ -6,6 +6,19 @@ $(document).ready(function() {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
+
+  // Portfolio tabs (sin Bootstrap tabs para no ocultar secciones siguientes)
+  $('.portfolio-tab-link').on('click', function(event) {
+    event.preventDefault();
+    var target = $(this).data('portfolio-target');
+    $('.portfolio-tab-link').removeClass('active').attr('aria-selected', 'false');
+    $(this).addClass('active').attr('aria-selected', 'true');
+    $('.portfolio-panel').removeClass('active');
+    $(target).addClass('active');
+    if (typeof AOS !== 'undefined') {
+      AOS.refresh();
+    }
+  });
 });
 
 // Smooth scroll for links with hashes
